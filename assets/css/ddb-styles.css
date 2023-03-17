@@ -1,0 +1,52 @@
+body{
+	margin:0;
+	padding:0;
+}
+#ddb-wrap{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
+#ddb-control-panel-wrap{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	width:300px;
+	float:left;
+}
+#ddb-control-panel{
+	box-sizing:border-box;
+	min-height: 700px;
+	width:100%;
+	background-color: #dddddd;
+}
+#ddb-canvas-wrap{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	width: calc(100% - 300px);
+	float:left;
+}
+#ddb-canvas{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	background-color: #eeeeee;
+	width:100%;
+	min-height: 700px;
+	border:1px dotted blue;
+}
+
+.ddb-block-item{
+	box-sizing:border-box;
+	float:left;
+	width:80px;
+	height: 80px;
+	border:1px solid #444444;
+	background-color: #BBBBBB;
+	color:Blue;
+	text-align: center;
+	margin:5px;
+	cursor: move;
+}
+
