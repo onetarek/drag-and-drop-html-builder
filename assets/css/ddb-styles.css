@@ -50,3 +50,22 @@ body{
 	cursor: move;
 }
 
+.ddb-row{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	background-color: #007cba;
+	border:1px solid #e36159;
+}
+.ddb-row.blank{
+	min-height: 20px;
+	padding: 5px;
+}
+.ddb-col{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
+
+
+

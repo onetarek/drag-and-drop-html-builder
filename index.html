@@ -10,19 +10,19 @@
 	<div id="ddb-wrap">
 		<div id="ddb-control-panel-wrap">
 			<div id="ddb-control-panel">
-				DDB Control Panel
+				<!-- DDB Control Panel -->
 				<div>
-					<div class="ddb-block-item">Row</div>
+					<div class="ddb-block-item" draggable="true" ondragstart="drag(event)" ddb-data='{"block_name":"row"}'>Row</div>
 					<div class="ddb-block-item">Column</div>
-					<div class="ddb-block-item">Image</div>
-					<div class="ddb-block-item">HTML</div>
+					<div class="ddb-block-item"  draggable="true" ondragstart="drag(event)" ddb-data='{"block_name":"image"}'>Image</div>
+					<div class="ddb-block-item" >HTML</div>
 					<div style="clear:both"></div>
 				</div>
 			</div>
 		</div>
 		<div id="ddb-canvas-wrap">
-			<div id="ddb-canvas">
-				DDB Canvas
+			<div id="ddb-canvas" ondrop="drop(event)" ondragover="allowDrop(event)">
+				<!-- DDB Canvas -->
 			</div>
 		</div>
 		<div style="clear:both"></div>
